@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnexFile", "EnexFile\EnexFile.csproj", "{ABDBC7EF-3155-4C9E-A975-7519306ED23C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{8E96B271-69DA-42C5-8297-C6983325E6A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABDBC7EF-3155-4C9E-A975-7519306ED23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDBC7EF-3155-4C9E-A975-7519306ED23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDBC7EF-3155-4C9E-A975-7519306ED23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDBC7EF-3155-4C9E-A975-7519306ED23C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E96B271-69DA-42C5-8297-C6983325E6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E96B271-69DA-42C5-8297-C6983325E6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E96B271-69DA-42C5-8297-C6983325E6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E96B271-69DA-42C5-8297-C6983325E6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DCB37A9-8821-4232-B5C5-1214EE0CCF4C}
+	EndGlobalSection
+EndGlobal
