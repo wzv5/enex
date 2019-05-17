@@ -1,0 +1,27 @@
+﻿<Window x:Class="EnexDump.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EnexDump"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="406" Width="455">
+    <Canvas>
+        <Button x:Name="btn_select" Click="Btn_select_Click" Drop="Btn_select_Drop" Canvas.Top="24" Width="367" Height="147" Canvas.Left="42" AllowDrop="True">
+            <TextBlock TextAlignment="Center">
+                拖动 enex 文件到此处<LineBreak/><LineBreak/>
+                或<LineBreak/><LineBreak/>
+                点击选择文件
+            </TextBlock>
+        </Button>
+        <Label Content="导出目录：" Canvas.Left="42" Canvas.Top="223" Height="24"/>
+        <TextBox Text="{Binding TargetDir}" Height="24" Canvas.Left="117" Canvas.Top="223" Width="241" VerticalContentAlignment="Center"/>
+        <Button Click="Btn_seleck_output_Click" Content="..." Canvas.Left="363" Canvas.Top="223" Width="37" Height="24"/>
+        <CheckBox IsChecked="{Binding InlineImage}" Content="内联图片" Canvas.Left="61" Canvas.Top="259" ToolTip="以 base64 的形式内联保存图片"/>
+        <CheckBox IsChecked="{Binding InsertTitle}" Content="插入标题" Canvas.Left="181" Canvas.Top="259" ToolTip="在 markdown 头部插入标题"/>
+        <CheckBox IsChecked="{Binding UUIDFileName}" Content="UUID 文件名" Canvas.Left="296" Canvas.Top="259" ToolTip="使用唯一的 UUID 值作为 markdown 文件名"/>
+        <Button Click="Btn_dump_Click" Content="导出" Canvas.Left="117" Canvas.Top="303" Width="198" Height="41"/>
+        <Label Content="{Binding SourceFileName}" Canvas.Left="42" Canvas.Top="176" Width="367" HorizontalContentAlignment="Center"/>
+
+    </Canvas>
+</Window>

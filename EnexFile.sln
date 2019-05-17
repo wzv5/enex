@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnexFile", "EnexFile\EnexFi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{8E96B271-69DA-42C5-8297-C6983325E6A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnexDump", "EnexDump\EnexDump.csproj", "{A1A8C7CC-6551-4F2A-ACFC-F1FCF9B1A295}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8E96B271-69DA-42C5-8297-C6983325E6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E96B271-69DA-42C5-8297-C6983325E6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E96B271-69DA-42C5-8297-C6983325E6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A8C7CC-6551-4F2A-ACFC-F1FCF9B1A295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A8C7CC-6551-4F2A-ACFC-F1FCF9B1A295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A8C7CC-6551-4F2A-ACFC-F1FCF9B1A295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A8C7CC-6551-4F2A-ACFC-F1FCF9B1A295}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
